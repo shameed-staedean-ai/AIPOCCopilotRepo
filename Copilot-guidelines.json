@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "prompts": {
+    "default": {
+      "style": "Follow Microsoft X++ coding standards and D365FO best practices.",
+      "rules": [
+        "Always include XML-style docstrings for classes and methods.",
+        "Use PascalCase for class names, method names, and variables.",
+        "Prefix private fields with an underscore (e.g., _myField).",
+        "Use clear and descriptive variable names — no single-letter names.",
+        "Always include inline comments for complex logic or business rules.",
+        "Avoid using hard-coded values; use parameters or class members.",
+        "Follow D365FO naming conventions for tables, fields, and classes.",
+        "Ensure code is formatted consistently with proper indentation and spacing.",
+        "Avoid deeply nested IFs; use guard clauses or switch statements where appropriate."
+      ]
+    }
+  }
+}
